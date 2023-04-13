@@ -1,15 +1,15 @@
 import time
 import logging
 from aiogram import Bot, Dispatcher, executor
-from lib_kubernetes.internal.buttons import *
-from lib_kubernetes.internal.users import *
+from internal.buttons import *
+from internal.users import *
 import telebot
 from kubernetes import client, config
 
 # from node_check_ready import *
 # from dns_check_resolv import *
 # from check_ppod_service_uat import *
-from lib_kubernetes.internal.gitlab_issue import *
+from internal.gitlab_issue import *
 
 ns_list = []
 # stand = ['dev.txt', 'uat.txt', 'pprod.txt']
